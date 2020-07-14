@@ -1,4 +1,7 @@
 # Write your solution here
-this_year = Time.now.year
-puts "Hey, it's not 2019!" unless
-this_year == 2019
+current_time = Time.now 
+if current_time.to_i % 2 == 0
+  puts "Even!"
+else 
+  puts "Odd!"
+end  
